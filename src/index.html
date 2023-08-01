@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>FIT2102 A1 2022</title>
+    <link rel="stylesheet" href="style.css"></link>
+  </head>
+  <style>
+    .dummyfrog{
+      fill:white
+    }
+    .key {
+    width:18px;
+    text-align:center;
+    border-radius:3px;
+    background-color:lightgray;
+    }
+    .highlight {
+    background-color:pink;
+    }
+    div#controls {
+      float: right;
+      margin: 50px;
+    }
+  </style>
+  <body>
+    <svg id="svgCanvas" width="600" height="600">
+      <image id="road_img" height="400" width="600"  href="https://i.postimg.cc/hG1mNKV4/background.png" transform="translate(0, 275)"></image>
+      <rect id="river" height="254" width="600" fill="#40ffd0"></rect>
+      <image id="roadside_riverbank" height="63" width="600"  href="https://i.postimg.cc/vZ4vTGBH/depositphotos-126985294-stock-illustration-cartoon-stone-texture-in-gray.jpg" transform="translate(-270, 243)"></image>
+      <image id="roadside_riverbank" height="63" width="600"  href="https://i.postimg.cc/vZ4vTGBH/depositphotos-126985294-stock-illustration-cartoon-stone-texture-in-gray.jpg" transform="translate(-210, 243)"></image>
+      <image id="roadside_riverbank" height="63" width="600"  href="https://i.postimg.cc/vZ4vTGBH/depositphotos-126985294-stock-illustration-cartoon-stone-texture-in-gray.jpg" transform="translate(-150, 243)"></image>
+      <image id="roadside_riverbank" height="63" width="600"  href="https://i.postimg.cc/vZ4vTGBH/depositphotos-126985294-stock-illustration-cartoon-stone-texture-in-gray.jpg" transform="translate(-90, 243)"></image>
+      <image id="roadside_riverbank" height="63" width="600"  href="https://i.postimg.cc/vZ4vTGBH/depositphotos-126985294-stock-illustration-cartoon-stone-texture-in-gray.jpg" transform="translate(-30, 243)"></image>
+      <image id="roadside_riverbank" height="63" width="600"  href="https://i.postimg.cc/vZ4vTGBH/depositphotos-126985294-stock-illustration-cartoon-stone-texture-in-gray.jpg" transform="translate(30, 243)"></image>
+      <image id="roadside_riverbank" height="63" width="600"  href="https://i.postimg.cc/vZ4vTGBH/depositphotos-126985294-stock-illustration-cartoon-stone-texture-in-gray.jpg" transform="translate(90, 243)"></image>
+      <image id="roadside_riverbank" height="63" width="600"  href="https://i.postimg.cc/vZ4vTGBH/depositphotos-126985294-stock-illustration-cartoon-stone-texture-in-gray.jpg" transform="translate(150, 243)"></image>
+      <image id="roadside_riverbank" height="63" width="600"  href="https://i.postimg.cc/vZ4vTGBH/depositphotos-126985294-stock-illustration-cartoon-stone-texture-in-gray.jpg" transform="translate(210, 243)"></image>
+      <image id="roadside_riverbank" height="63" width="600"  href="https://i.postimg.cc/vZ4vTGBH/depositphotos-126985294-stock-illustration-cartoon-stone-texture-in-gray.jpg" transform="translate(270, 243)"></image>
+    </svg>
+    <canvas id="canvas1" width="600" height="600"></canvas> 
+    <canvas id="canvas2" width="600" height="600"></canvas> 
+    <canvas id="canvas3" width="600" height="600"></canvas> 
+    <canvas id="canvas4" width="600" height="600"></canvas> 
+    <div id="controls">
+      <h2>Controls:</h2>
+      <table>
+          <tr><td>Jump Left: </td><td><div id="ArrowLeft" class="key">&#8678;</div></td></tr>
+          <tr><td>Jump Right: </td><td><div id="ArrowRight" class="key">&#8680;</div></td></tr>
+          <tr><td>Jump Up: </td><td><div id="ArrowUp" class="key">&#8679;</div></td></tr>
+          <tr><td>Jump Down: </td><td><div id="ArrowDown" class="key">&#8681;</div></td></tr>
+          <tr><td>Restart Game: </td><td>&#82</td></tr> 
+      </table>
+      </div>
+  </body>
+</html>
